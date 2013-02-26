@@ -15,11 +15,11 @@ Google Cloud Endpoints, App Engine, and Python.
 
 ## Setup Instructions
 
-1. Make sure to have the [App Engine SDK for Python][6] installed, version
+1. Make sure to have the [App Engine SDK for Python][4] installed, version
    1.7.5 or higher.
 2. Change `'YOUR-CLIENT-ID'` in [`static/js/base.js`][5] and 
    [`tictactoe_api.py`][6] to the respective client ID(s) you have registered 
-   in the [APIs Console][4].
+   in the [APIs Console][7].
 3. Update the value of `application` in [`app.yaml`][8] from `your-app-id` 
    to the app ID you have registered in the App Engine admin console and would 
    like to use to host your instance of this sample.
