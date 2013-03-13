@@ -25,4 +25,4 @@ handlers:
 
 libraries:
 - name: pycrypto
-  version: "2.6"
+  version: latest
