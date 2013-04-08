@@ -22,7 +22,3 @@ handlers:
 # Endpoints handler
 - url: /_ah/spi/.*
   script: tictactoe_api.APPLICATION
-
-libraries:
-- name: pycrypto
-  version: latest
