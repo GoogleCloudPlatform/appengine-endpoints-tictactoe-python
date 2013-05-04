@@ -90,10 +90,9 @@ google.devrel.samples.ttt.waitingForMove = true;
 /**
  * Loads the application UI after the user has completed auth.
  */
-google.devrel.samples.ttt.userAuthed = function() {
+google.devrel.samples.ttt.userAuthed = function(token) {
   var request = gapi.client.oauth2.userinfo.get().execute(function(resp) {
     if (!resp.code) {
-      var token = gapi.auth.getToken();
       // Use id_token instead of bearer token
       token.access_token = token.id_token;
       gapi.auth.setToken(token);
