@@ -18,6 +18,7 @@ handlers:
 - url: /
   static_files: templates/tictactoe.html
   upload: templates/tictactoe\.html
+  secure: always
 
 # Endpoints handler
 - url: /_ah/spi/.*
