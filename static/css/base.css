@@ -63,11 +63,17 @@ body {
 }
 
 /* Signin styles */
-#signin a {
+#signinStatusContainer {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   box-flex: 1;
-  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+
+#signinStatusContainer > :not(.visible) {
+  display: none;
 }
 
 /* Board styles */
