@@ -38,6 +38,9 @@ google.devrel.samples.ttt.SCOPES =
 /**
  * Parses email from the claim set of a JWT ID token.
  *
+ * NOTE: We are not validating the ID token since from a trusted source.
+ *       We are simply parsed the value from the JWT.
+ *
  * See http://www.tbray.org/ongoing/When/201x/2013/04/04/ID-Tokens
  * or
  * http://openid.net/specs/openid-connect-messages-1_0.html#StandardClaims
