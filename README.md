@@ -17,7 +17,7 @@ Google Cloud Endpoints, App Engine, and Python.
 
 1. Make sure to have the [App Engine SDK for Python][4] installed, version
    1.7.5 or higher.
-2. Change `'YOUR-CLIENT-ID'` in [`static/js/base.js`][5] and 
+2. Change `'YOUR-CLIENT-ID'` in [`static/js/render.js`][5] and 
    [`tictactoe_api.py`][6] to the respective client ID(s) you have registered 
    in the [APIs Console][7].
 3. Update the value of `application` in [`app.yaml`][8] from `your-app-id` 
@@ -32,7 +32,7 @@ Google Cloud Endpoints, App Engine, and Python.
 [2]: http://python.org/
 [3]: https://developers.google.com/appengine/docs/python/endpoints/
 [4]: https://developers.google.com/appengine/downloads
-[5]: https://github.com/GoogleCloudPlatform/appengine-endpoints-tictactoe-python/blob/master/static/js/base.js
+[5]: https://github.com/GoogleCloudPlatform/appengine-endpoints-tictactoe-python/blob/master/static/js/render.js
 [6]: https://github.com/GoogleCloudPlatform/appengine-endpoints-tictactoe-python/blob/master/tictactoe_api.py
 [7]: https://code.google.com/apis/console
 [8]: https://github.com/GoogleCloudPlatform/appengine-endpoints-tictactoe-python/blob/master/app.yaml
